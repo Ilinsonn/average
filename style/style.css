@@ -1,0 +1,156 @@
+/* Загальні стилі */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inner {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.welcome-message {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+}
+
+.statistics,
+.game-history {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-login,
+.message-password {
+    text-align: center;
+    color: #666;
+}
+
+.success,
+.error {
+    text-align: center;
+    color: #666;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #5cb85c;
+    border-radius: 5px;
+    transition: 0.3s all ease;
+}
+
+a:hover {
+    background-color: #469c46;
+}
+
+span {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+li:last-child {
+    padding-bottom: 0px;
+}
+
+/* Стилі для форм */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 94%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #337ab7;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #286090;
+}
